@@ -4,7 +4,7 @@ const btnElements = document.querySelectorAll('.btn');
 
 let count = 0;
 //parseFloat(getComputedStyle(e.currentTarget).fontSize) + 1;
-let newFontSize = parseFloat(getComputedStyle(h1).fontSize);
+// let newFontSize = parseFloat(getComputedStyle(h1).fontSize);
 
 btnElements.forEach(btn =>{
     btn.addEventListener('click', function(){
